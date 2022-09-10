@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.q3 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.q3:hover {
+    background: blue;
+    transition-duration: 6s;
+    transform: scale(1.5,1.5);
+    
+}
+
+
+

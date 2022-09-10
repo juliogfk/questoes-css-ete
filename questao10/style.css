@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.q10 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: circulo;
+    animation-duration: 3s;
+}
+@keyframes circulo {
+    0%{right:0px; bottom:0px;}
+    100%{right:900px; bottom:390px; width: 70px; height: 70px;}
+}
+
+

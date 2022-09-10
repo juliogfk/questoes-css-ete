@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.q6 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: quadrado;
+    animation-duration: 20s;
+
+}
+@keyframes quadrado {
+    0% {rotate: 0deg}
+    12.5%{background: blue;}
+    12.5%{background: rgb(12, 12, 12);}
+    12.5%{background: rgb(253, 57, 211);}
+    12.5%{background: rgb(79, 207, 68);}
+    12.5%{background: rgb(230, 240, 93);}
+    12.5%{background: rgb(233, 160, 66);}
+    12.5%{background: rgb(86, 86, 97);}
+    12.5%{background: rgb(111, 145, 158);}
+    100% {rotate: 360deg}
+}
+
+
+

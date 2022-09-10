@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.q7 {
+    
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: quadrado;
+    animation-duration: 5s;
+
+}
+@keyframes quadrado {
+    0% {background: white;}
+    50% {background: blue;}
+    100% {background: orange;}
+}
+
+
+

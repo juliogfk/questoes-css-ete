@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.q5 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: quadrado;
+    animation-duration: 3s;
+
+}
+@keyframes quadrado {
+    0% {rotate: 0deg}
+    100% {rotate: 45deg}
+}
+
+
+

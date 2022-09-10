@@ -1,0 +1,23 @@
+
+
+.volta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.q1 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
