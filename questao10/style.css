@@ -19,7 +19,7 @@
 }
 @keyframes circulo {
     0%{right:0px; bottom:0px;}
-    100%{right:685px; bottom:300px; width: 70px; height: 70px;}
+    100%{right:48%; bottom:45%; width: 70px; height: 70px;}
 }
 
 
